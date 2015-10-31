@@ -6,5 +6,5 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.addFiles(['meteor-css-toggle-switch/dist/toggle-switch.css'], 'client');
+  api.addFiles(['css-toggle-switch/dist/toggle-switch.css'], 'client');
 });
