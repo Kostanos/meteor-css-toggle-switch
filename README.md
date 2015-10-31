@@ -1,2 +1,6 @@
 # meteor-css-toggle-switch
-Add css toggle switch to meteor project
+Add [CSS toggle switch|https://ghinda.net/css-toggle-switch/] to meteor project
+
+```
+meteor add kostanos:meteor-css-toggle-switch
+```
