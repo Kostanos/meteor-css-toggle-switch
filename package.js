@@ -1,8 +1,8 @@
 Package.describe({
   name: 'kostanos:meteor-css-toggle-switch',
   summary: 'Simple add CSS toggle switch to meteor',
-  version: '1.0.0',
-  git: 'git@github.com:Kostanos/meteor-css-toggle-switch.git'
+  version: '1.0.1',
+  git: 'https://github.com/Kostanos/meteor-css-toggle-switch.git'
 });
 
 Package.onUse(function(api) {
