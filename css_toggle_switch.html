@@ -1,0 +1,14 @@
+<template name="cssToggleSwitch">
+  {{#with switchOptions}}
+    <label class="switch-light {{classLabel}}" onclick="">
+      <input type="checkbox" {{atts}}>
+      <span>
+        {{label}}
+        <span>{{labelOff}}</span>
+        <span>{{labelOn}}</span>
+      </span>
+
+      <a class="btn {{classButton}}"></a>
+    </label>
+  {{/with}}
+</template>
