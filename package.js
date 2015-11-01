@@ -6,9 +6,9 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.use('templating');
-  api.use('blaze');
-  api.use('underscore');
+  api.use('templating@1.0.0');
+  api.use('blaze@2.0.0');
+  api.use('underscore@1.0.4');
 
   api.addFiles(['css-toggle-switch/dist/toggle-switch.css', 'css_toggle_switch.html', 'css_toggle_switch.js'], 'client');
   api.export('CSSToggleSwitch');
